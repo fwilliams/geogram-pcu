@@ -54,6 +54,8 @@
 #include <geogram/basic/algorithm.h>
 #include <geogram/bibliography/bibliography.h>
 
+#include <random>
+
 namespace {
 
     using namespace GEO;
