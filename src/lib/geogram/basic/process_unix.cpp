@@ -69,6 +69,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <new>
+#include <exception>
 
 #ifdef GEO_OS_APPLE
 #include <mach-o/dyld.h>
