@@ -684,7 +684,7 @@ namespace GEO {
             signal(SIGFPE, (sighandler_t) fpe_signal_handler);
 
             // Install unexpected and uncaught c++ exception handlers
-            std::set_unexpected(unexpected_exception_handler);
+            // std::set_unexpected(unexpected_exception_handler);
             std::set_terminate(uncaught_exception_handler);
 
             // Install memory allocation handler
