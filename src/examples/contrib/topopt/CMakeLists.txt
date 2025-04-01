@@ -1,4 +1,4 @@
-CMake_Minimum_Required(VERSION 3.0)
+CMake_Minimum_Required(VERSION 3.10)
 
 # Module path
 Set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/")
