@@ -3,7 +3,7 @@
 
 project( CGAL_with_GEOGRAM )
 
-cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 3.10)
 
 # CGAL and its components
 find_package( CGAL QUIET COMPONENTS  )
