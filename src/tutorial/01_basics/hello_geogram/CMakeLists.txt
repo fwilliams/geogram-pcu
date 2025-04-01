@@ -1,7 +1,7 @@
 # Instructions to compile this program
 # are explained in tutorials/README.txt
 
-cmake_minimum_required(VERSION 2.8.11)
+cmake_minimum_required(VERSION 3.10)
 project(hello_geogram)
 
 if (NOT CMAKE_BUILD_TYPE)
